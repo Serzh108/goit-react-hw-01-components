@@ -3,9 +3,6 @@ import PropTypes from 'prop-types';
 import styles from './profile.module.css';
 
 const Profile = ({ name, tag, location, avatar, stats }) => {
-  // const profileClasses = [styles.profile];
-  // const nameClasses = [styles.name];
-  // const listClasses = [styles.list];
   return (
     <div className={styles.profile}>
       <div className={styles.description}>
