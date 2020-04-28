@@ -1,0 +1,26 @@
+.transactionHistor {
+  width: 600px;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+.transactionTh {
+  border: 1px solid #ccc;
+  background-color: #00bcd5;
+  color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.transactionTd {
+  border: 1px solid #ccc;
+  color: #aaa;
+  text-align: center;
+  padding: 10px;
+  background-color: #ecf1f4;
+}
+
+.transactionOdd {
+  composes: transactionTd;
+  background-color: #fdfdfd;
+}
